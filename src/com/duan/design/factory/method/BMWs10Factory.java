@@ -1,6 +1,7 @@
 package com.duan.design.factory.method;
 
 import com.duan.design.factory.product.BMWs10;
+import com.duan.design.factory.serial.BMWsSerial;
 
 /**
  * Created on 2017/11/30.
@@ -9,8 +10,8 @@ import com.duan.design.factory.product.BMWs10;
  * @author DuanJiaNing
  */
 public class BMWs10Factory extends AbstractBMWsSerialFactory {
-
-    public BMWs10 createBMWs10() {
+    @Override
+    public BMWsSerial createBMWs() {
         return new BMWs10();
     }
 }

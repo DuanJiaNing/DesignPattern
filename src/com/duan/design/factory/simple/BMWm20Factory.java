@@ -14,4 +14,6 @@ public class BMWm20Factory {
         return new BMWm20();
     }
 
+    // 当需要增加一种车型时需要直接修改代码（违背开闭原则）
+    //public BMWm10 createBMW10(){}
 }
