@@ -1,6 +1,6 @@
 package com.duan.design.observer;
 
-import com.duan.design.Utils;
+import com.duan.design.U;
 
 /**
  * Created on 2017/11/24.
@@ -11,9 +11,9 @@ public class Test {
 
     public static void main(String[] args) {
         NewsProvider provider = new NewsProvider();
-        Observer<News> ob1 = data -> Utils.p.accept("ob1 " + data);
-        Observer<News> ob2 = data -> Utils.p.accept("ob2 " + data);
-        Observer<News> ob3 = data -> Utils.p.accept("ob3 " + data);
+        Observer<News> ob1 = data -> U.p.accept("ob1 " + data);
+        Observer<News> ob2 = data -> U.p.accept("ob2 " + data);
+        Observer<News> ob3 = data -> U.p.accept("ob3 " + data);
 
         provider.addObserver(ob1);
         provider.addObserver(ob2);

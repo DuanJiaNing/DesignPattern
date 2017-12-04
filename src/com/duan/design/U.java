@@ -7,6 +7,6 @@ import java.util.function.Consumer;
  *
  * @author DuanJiaNing
  */
-public class Utils {
+public class U {
     public static Consumer<Object> p = System.out::println;
 }
