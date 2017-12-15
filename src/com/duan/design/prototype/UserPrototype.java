@@ -33,7 +33,7 @@ public class UserPrototype implements Prototype<UserPrototype> {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    public UserPrototype clone() throws CloneNotSupportedException {
         return clone(false);
     }
 }

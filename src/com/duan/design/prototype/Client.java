@@ -1,6 +1,6 @@
 package com.duan.design.prototype;
 
-import com.duan.design.U;
+import com.duan.design.P;
 
 import java.util.Date;
 
@@ -18,14 +18,14 @@ public class Client {
 
         UserPrototype prototype = new UserPrototype(name, age, date);
         UserPrototype clone = prototype.clone(false);
-        U.p.accept(prototype == clone); // false
-        U.p.accept(prototype.equals(clone)); // true
-        U.p.accept(prototype.getDate() == clone.getDate()); // true
-        U.p.accept("");
+        P.p.accept(prototype == clone); // false
+        P.p.accept(prototype.equals(clone)); // true
+        P.p.accept(prototype.getDate() == clone.getDate()); // true
+        P.p.accept("");
         UserPrototype clone1 = prototype.clone(true);
-        U.p.accept(prototype == clone1); // false
-        U.p.accept(prototype.equals(clone1)); // true
-        U.p.accept(prototype.getDate() == clone1.getDate()); // false
+        P.p.accept(prototype == clone1); // false
+        P.p.accept(prototype.equals(clone1)); // true
+        P.p.accept(prototype.getDate() == clone1.getDate()); // false
 
     }
 

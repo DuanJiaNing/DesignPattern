@@ -10,7 +10,25 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../maven/repository/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Duan/source/cglib-2.1_3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Duan/source/asm-1.5.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

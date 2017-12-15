@@ -15,4 +15,11 @@ public interface Prototype<T> extends Cloneable {
      */
     T clone(boolean deepCopy) throws CloneNotSupportedException;
 
+    /**
+     * 实现类必须覆写 Object 的 clone 方
+     *
+     * @return
+     */
+    T clone() throws CloneNotSupportedException;
+
 }
